@@ -12,6 +12,24 @@ $(window).on('load', function() {
 
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+
+    const themeStylesheet = document.getElementById('theme-style');
+    const themeToggle = document.getElementById('theme-toggle');
+    themeToggle.addEventListener('click', () => {
+        // if it's light -> go dark
+        if(themeStylesheet.href.includes('styles')){
+            themeStylesheet.href = '/git/ashishsumn.github.io/assets/css/dark_theme.css';
+            themeToggle.src = '/git/ashishsumn.github.io/assets/images/toggle-right.svg';
+        } else {
+            // if it's dark -> go light
+            themeStylesheet.href = '/git/ashishsumn.github.io/assets/css/styles.css';
+            themeToggle.src = '/git/ashishsumn.github.io/assets/images/toggle-left.svg';
+
+        }
+    })
+});
+
 
 jQuery(document).ready(function($) {
 
