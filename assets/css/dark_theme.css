@@ -8,8 +8,8 @@
 */
 body {
     font-family: 'Lato', arial, sans-serif;
-    color: #434343;
-    background: #000000;
+    color: #ddd7d7;
+    background: #243447;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -124,7 +124,7 @@ body {
   /* ======= Header ======= */
   .header {
     padding: 30px 0;
-    background: #141414;
+    background: #141d26;
     border-top: 10px solid #778492;
   }
   
@@ -138,7 +138,7 @@ body {
   }
   
   .header .profile-content .name {
-    color: #49515a;
+    color: #8e949b;
     font-size: 38px;
     margin-bottom: 5px;
     margin-top: 30px;
@@ -190,7 +190,7 @@ body {
   }
   
   .section .section-inner {
-    background: #141414;
+    background: #141d26;
     padding: 30px;
   }
   
